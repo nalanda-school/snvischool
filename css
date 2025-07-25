@@ -1,0 +1,4 @@
+.hero-content {
+  opacity: 1; /* ✅ full visibility */
+  color: #000; /* or another visible color */
+}
