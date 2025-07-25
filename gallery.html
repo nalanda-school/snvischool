@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - SNVI School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+    }
+
+    header {
+      background-color: #014f86;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #1565c0;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #014f86;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #014f86;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shree Nalanda Vidyalaya International School</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <h2>Our School Moments</h2>
+  <div class="gallery">
+    <img src="photo1.jpg" alt="School Photo 1">
+    <img src="photo2.jpg" alt="School Photo 2">
+    <img src="photo3.jpg" alt="School Photo 3">
+    <img src="photo4.jpg" alt="School Photo 4">
+    <img src="photo5.jpg" alt="School Photo 5">
+    <img src="photo6.jpg" alt="School Photo 6">
+  </div>
+
+  <footer>
+    &copy; 2025 Shree Nalanda Vidyalaya International School
+  </footer>
+
+</body>
+</html>
