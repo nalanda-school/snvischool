@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shree Nalanda Vidyalaya International School</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #014f86;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('School Building Photo.jpeg') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .hero-text {
+      position: relative;
+      z-index: 1;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #014f86;
+    }
+    .about, .contact {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    footer {
+      background: #014f86;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LOGO.png" alt="School Logo" />
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Shree Nalanda Vidyalaya</h1>
+      <p>Igniting Young Minds with Excellence in Education</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <div class="about">
+      <p>
+        Shree Nalanda Vidyalaya International School is a beacon of academic excellence in Bangarpet. We nurture every student to be a global citizen through holistic education, innovative learning methods, and a nurturing environment.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <p>Email: shreenalandaschool@gmail.com</p>
+      <p>Phone: +91-9876543210</p>
+      <p>Address: Abbigere Hosahalli Village, Hulibele Post, Bangarpet-563114</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shree Nalanda Vidyalaya International School. All rights reserved.</p>
+  </footer>
+</body>
+</html>
